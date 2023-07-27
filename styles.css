@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 375px;
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 375px;
+    max-width: 100%;
+    margin-bottom: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.ord-summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.summary-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
+.summary-info h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+    margin-bottom: 10px;
+}
+
+.summary-info p{
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.plan-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 60px;
+    background: #e9e9e9;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.plan-summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.plan-summary img{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.plan-sum-price h6, .plan-sum-price span{
+    font-family: 'Red Hat Display';
+}
+
+.plan-sum-price h6{
+    font-size: 14px;
+}
+.plan-sum-price span{
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.payment-link {
+    background: hsl(245, 75%, 52%); 
+    width: fit-content; 
+    padding: 10px 50px; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.payment-link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Display';
+}
+
+.cancel-order-link a{
+    color: #4c4c4c;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+}
